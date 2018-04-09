@@ -1,0 +1,226 @@
+@import "http://fonts.fontstorage.com/import/bebasneue.css";
+@import "http://fonts.fontstorage.com/import/guerilla.css";
+
+* {
+font-family:'Bebas Neue',  Arial;
+font-weight: bold;
+}
+
+body {
+}
+
+li {
+	list-style: none;
+}
+
+.container  {
+	margin-top: 10vh;
+	text-align: center;
+}
+
+
+/*Navbar start*/
+
+.navbar{
+	border-radius: 0 !important;
+}
+
+.link li {
+	font-size: 20px;
+}
+
+.link a {
+	-webkit-transition:color 0.5s;
+}
+
+.link a:hover {
+color: #FFB6C1;
+}
+
+
+
+
+
+.navbar a {
+	color:#fff;
+}
+
+.navbar a:hover {
+	text-decoration: none;
+}
+
+.navbar a:focus {
+	text-decoration: none;
+	color:#fff;
+}
+
+.brand {
+	letter-spacing: 10px;
+font-family: 'Guerilla';
+	-webkit-transition:color 0.5s;
+	font-size: 30px;
+}
+
+.brand:hover {
+color: #FFB6C1;
+}
+
+.navbar li {
+	display: inline;
+	line-height: 10vh;
+}
+
+
+/*Navbar finish*/
+
+
+/*Body start*/
+
+.center-content {
+	text-align: center;
+}
+
+.big-text h1{
+	letter-spacing: 10px;
+font-family: 'Guerilla';
+	margin-top: 30%;
+	color:#fff;
+	font-weight: bold;
+	font-size: 100px;
+}
+
+.big-text h2 {
+	font-family: 'Guerilla';
+	letter-spacing: 10px;
+		color:#fff;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+
+.market-button a {
+	margin-top: 5vh;
+	display: inline-block;
+	border:1px solid #d1d1d1;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	color:#fff;
+	font-size: 25px;
+	-webkit-transition:background 0.2s, color 0.7s;
+}
+
+.market-button a:hover {
+	color:#fff;
+	text-decoration: none;
+	background:#242424;
+	border:1px solid #242424;
+}
+
+.market-button a:focus {
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+}
+
+
+.girl-png img {
+	width: 90%;
+}
+
+
+#showcase {
+		background: linear-gradient(to right, #D31027, #EA384D);
+	height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+     background-color: #33383c;
+     padding:30px 0px;
+}	       
+
+.logo{
+    color:#FFF;
+    font-weight:700;
+    font-size:30px;
+}
+
+.address span , .menu span{
+   color: #FFF; 
+   font-weight: bold; 
+   border-bottom: 1px solid #c7c7c7; 
+   padding:10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+ 
+.address li a , .menu li a{
+    color:#FFF;
+    letter-spacing: 3px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.address li, .menu li{
+    margin:20px 0px;
+    list-style: none;
+}
+
+.address li a:hover , .menu li a:hover{
+    color: #da3e44;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.address .fa{
+    color: #da3e44;
+    margin-right: 10px;
+    font-size:18px;
+}
+
+.search-text{
+	margin-top:50px;
+	background-color: #272d33;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+
+.form button {
+		font-family: 'Comfortaa' !important;
+}
+
+.search-text .input-search{
+	height:45px;
+	width:40%;
+	padding-left:20px;
+    color:#333;
+} 
+
+.search-text .btn-search{
+    background: #da3e44;
+    font-family:Roboto;
+    border:none;
+	color:#FFF;
+	height: 45px;
+    width: 80px;
+}
+
+.search-text h4{
+    color: #FFF;
+    font-weight: 700;
+}
+
+
